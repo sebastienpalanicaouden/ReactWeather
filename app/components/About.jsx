@@ -10,7 +10,10 @@ var React = require('react');
 
 var About = (props) => {
   return (
-    <h3>Welcome to the about page!</h3>
+    <div className="text-center">
+      <h1>About</h1>
+      <p>Click <a href="https://github.com/sebastienpalanicaouden/ReactWeather">here</a> to see the source code of the application.</p>
+    </div>
   );
 };
 
